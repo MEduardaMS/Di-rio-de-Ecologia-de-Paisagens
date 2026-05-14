@@ -1,0 +1,17 @@
+---
+title: "Diário de Ecologia de Paisagens - Eduarda"
+subtitle: "BO-304 | UFPE | 2026.1"
+author: "Eduarda Souto"
+
+---
+
+# Quem sou eu?
+  Não sei
+  
+# Por que estou aqui?
+  Ainda descobrindo
+  
+# Para onde vou?
+  Um lugar bacana, espero
+
+{r} 1 + 1

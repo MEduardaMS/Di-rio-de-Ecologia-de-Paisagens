@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Diário de Ecologia de Paisagens - Eduarda",
+    "section": "",
+    "text": "Quem sou eu?\nNão sei\n\n\nPor que estou aqui?\nAinda descobrindo\n\n\nPara onde vou?\nUm lugar bacana, espero\n{r} 1 + 1"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#ponto-de-observacao",
+    "href": "index.html#ponto-de-observacao",
+    "title": "diario_ecologia_eduarda",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Diário de Ecologia de Paisagens - Eduarda",
+    "section": "",
+    "text": "zap link ring neck abencoado\n{r} 1 + 1"
+  },
+  {
+    "objectID": "index.html#pov",
+    "href": "index.html#pov",
+    "title": "diario_ecologia_eduarda",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#semana-1-fundamentos-de-ecologia-de-paisagem",
+    "href": "index.html#semana-1-fundamentos-de-ecologia-de-paisagem",
+    "title": "Diário de Ecologia de Paisagens - Eduarda",
+    "section": "",
+    "text": "Desenho da Área\n\n\nA paisagem é composta por uma matriz de pastagem, na qual estão inseridos capões de mata isolados. Não foram observados corredores ecológicos conectando os fragmentos florestais à área de pastagem.\n\n\n\n\n\n\nGrãos\n\n\n\n\n\n\n\n\nExercício de Percepção\n\n\n\n\n\n\nAo aumentar o tamanho do grão (Parte 2), você perdeu informações que seriam vitais para a conservação de alguma espécie específica? R: Não, visto que a maior parte da floresta e do pasto foram conservadas na criação do grão.\nComo a conectividade funcional mudou entre a sua visão humana e a visão do “gafanhoto”? Elementos que eram barreiras continuam sendo? R: Visto que não há barreiras entre a pastagem e a mancha florestal, acredito que a conectividade permanece. Também há o fator que, conhecendo a área, há constante fluxo de espécies entre os dois elementos, especialmente serpentes.\nVocê consegue identificar algum distúrbio (natural ou antrópico) que foi o responsável por criar essa heterogeneidade que você desenhou? R: Sim, a área escolhida é um local de pastagem utilizada para criação de bovinos a gerações\n\n{r} 1 + 1"
+  },
+  {
+    "objectID": "exercício_aula1.html",
+    "href": "exercício_aula1.html",
+    "title": "Exercício 1ª aula",
+    "section": "",
+    "text": "Desenho da Área\n\n\nA paisagem é composta por uma matriz de pastagem, na qual estão inseridos capões de mata isolados. Não foram observados corredores ecológicos conectando os fragmentos florestais à área de pastagem.\n\n\n\n\n\n\nGrãos\n\n\n\n\n\n\n\n\nExercício de Percepção\n\n\n\n\n\n\nAo aumentar o tamanho do grão (Parte 2), você perdeu informações que seriam vitais para a conservação de alguma espécie específica?\nR: Não, visto que a maior parte da floresta e do pasto foram conservadas na criação do grão.\nComo a conectividade funcional mudou entre a sua visão humana e a visão do “gafanhoto”? Elementos que eram barreiras continuam sendo?\nR: Visto que não há barreiras entre a pastagem e a mancha florestal, acredito que a conectividade permanece. Também há o fator que, conhecendo a área, há constante fluxo de espécies entre os dois elementos, especialmente serpentes.\nVocê consegue identificar algum distúrbio (natural ou antrópico) que foi o responsável por criar essa heterogeneidade que você desenhou?\nR: Sim, a área escolhida é um local de pastagem utilizada para criação de bovinos a gerações"
+  },
+  {
+    "objectID": "exercício_aula1.html#quarto",
+    "href": "exercício_aula1.html#quarto",
+    "title": "exercicio_aula1",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "exercício_aula1.html#running-code",
+    "href": "exercício_aula1.html#running-code",
+    "title": "exercicio_aula1",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "exercício_aula1.html#semana-1-fundamentos-de-ecologia-de-paisagem",
+    "href": "exercício_aula1.html#semana-1-fundamentos-de-ecologia-de-paisagem",
+    "title": "Exercício 1ª aula",
+    "section": "",
+    "text": "Desenho da Área\n\n\nA paisagem é composta por uma matriz de pastagem, na qual estão inseridos capões de mata isolados. Não foram observados corredores ecológicos conectando os fragmentos florestais à área de pastagem.\n\n\n\n\n\n\nGrãos\n\n\n\n\n\n\n\n\nExercício de Percepção\n\n\n\n\n\n\nAo aumentar o tamanho do grão (Parte 2), você perdeu informações que seriam vitais para a conservação de alguma espécie específica?\nR: Não, visto que a maior parte da floresta e do pasto foram conservadas na criação do grão.\nComo a conectividade funcional mudou entre a sua visão humana e a visão do “gafanhoto”? Elementos que eram barreiras continuam sendo?\nR: Visto que não há barreiras entre a pastagem e a mancha florestal, acredito que a conectividade permanece. Também há o fator que, conhecendo a área, há constante fluxo de espécies entre os dois elementos, especialmente serpentes.\nVocê consegue identificar algum distúrbio (natural ou antrópico) que foi o responsável por criar essa heterogeneidade que você desenhou?\nR: Sim, a área escolhida é um local de pastagem utilizada para criação de bovinos a gerações"
+  }
+]

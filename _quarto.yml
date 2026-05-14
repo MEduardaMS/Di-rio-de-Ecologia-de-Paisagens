@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "Diário de Ecologia de Paisagens"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Início
+      - href: exercício_aula1.qmd
+        text: "Exercício — Aula 1"
+      - about.qmd
+      
+format:
+  html:
+    theme: cosmo
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
