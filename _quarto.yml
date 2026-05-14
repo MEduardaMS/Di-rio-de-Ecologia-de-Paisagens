@@ -14,8 +14,6 @@ website:
       
 format:
   html:
-    theme: cosmo
-      - cosmo
-      - brand
+    theme: minty
     css: styles.css
     toc: true
