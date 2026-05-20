@@ -8,8 +8,12 @@ website:
     left:
       - href: index.qmd
         text: Início
-      - href: exercício_aula1.qmd
-        text: "Exercício — Aula 1"
+      - href: exercicio_1.qmd
+        text: "1º Exercício"
+      - href: exercicio_4.qmd
+        text: "4º Exercício"
+      - href: exercicio_5.qmd
+        text: "5º Exercíco"
       - about.qmd
       
 format:

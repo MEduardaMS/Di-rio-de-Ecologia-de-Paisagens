@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Diário de Ecologia de Paisagens</title>
+<title>4º Exercício – Diário de Ecologia de Paisagens</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -22,41 +22,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -136,7 +101,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">1º Exercício</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./exercicio_4.html"> 
+    <a class="nav-link active" href="./exercicio_4.html" aria-current="page"> 
 <span class="menu-text">4º Exercício</span></a>
   </li>  
   <li class="nav-item">
@@ -144,7 +109,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">5º Exercíco</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -158,15 +123,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#exercício-4-amostragem-de-paisagens-com-restrição-de-borda-murici-al" id="toc-exercício-4-amostragem-de-paisagens-com-restrição-de-borda-murici-al" class="nav-link active" data-scroll-target="#exercício-4-amostragem-de-paisagens-com-restrição-de-borda-murici-al"><strong>Exercício 4: Amostragem de Paisagens com Restrição de Borda — Murici-AL</strong></a>
+  <ul class="collapse">
+  <li><a href="#análise-espacial-com-terra-tidyverse-e-landscapemetrics" id="toc-análise-espacial-com-terra-tidyverse-e-landscapemetrics" class="nav-link" data-scroll-target="#análise-espacial-com-terra-tidyverse-e-landscapemetrics">Análise espacial com terra, tidyverse e landscapemetrics</a>
+  <ul class="collapse">
+  <li><a href="#introdução" id="toc-introdução" class="nav-link" data-scroll-target="#introdução">Introdução</a></li>
+  <li><a href="#sorteio-dos-pontos" id="toc-sorteio-dos-pontos" class="nav-link" data-scroll-target="#sorteio-dos-pontos">Sorteio dos Pontos</a></li>
+  <li><a href="#métricas" id="toc-métricas" class="nav-link" data-scroll-target="#métricas">Métricas</a></li>
+  <li><a href="#painel-de-paisagens" id="toc-painel-de-paisagens" class="nav-link" data-scroll-target="#painel-de-paisagens">Painel de paisagens</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">4º Exercício</h1>
 </div>
 
 
@@ -183,15 +163,60 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>About this site</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<section id="exercício-4-amostragem-de-paisagens-com-restrição-de-borda-murici-al" class="level1">
+<h1><strong>Exercício 4: Amostragem de Paisagens com Restrição de Borda — Murici-AL</strong></h1>
+<section id="análise-espacial-com-terra-tidyverse-e-landscapemetrics" class="level2">
+<h2 class="anchored" data-anchor-id="análise-espacial-com-terra-tidyverse-e-landscapemetrics">Análise espacial com terra, tidyverse e landscapemetrics</h2>
+<section id="introdução" class="level3">
+<h3 class="anchored" data-anchor-id="introdução">Introdução</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="imagens/exercicio2.png" class="img-fluid figure-img"></p>
+<figcaption>Área de Sorteio</figcaption>
+</figure>
 </div>
+<p>Seleção da área de sorteio, uma área de remanescentes florestais no município de Murici em Alagoas, com pelo menos 2km de distância da borda do mapa. A área de amortecimento, ou buffers, foram definidas em um buffer circular de 500m de raio.</p>
+</section>
+<section id="sorteio-dos-pontos" class="level3">
+<h3 class="anchored" data-anchor-id="sorteio-dos-pontos">Sorteio dos Pontos</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="imagens/exercicio2.1.png" class="img-fluid figure-img"></p>
+<figcaption>Pontos</figcaption>
+</figure>
 </div>
+<p>Foram sorteados 15 pontos dentro da área segura, com distância mínima de 1000m entre eles. Os círculos pretos indicam a área de amortecimento (buffer).</p>
+</section>
+<section id="métricas" class="level3">
+<h3 class="anchored" data-anchor-id="métricas">Métricas</h3>
+<p>Foram calculados três métricas:</p>
+<ul>
+<li>Diversidade da paisagem (Índice de Shannon)</li>
+</ul>
+<p>A diversidade de Shannon variou de 0 a 1,33, indicando desde áreas homogêneas até áreas mais heterogêneas. Os pontos 6 e 14 apresentaram diversidade igual a zero, caracterizando ambientes totalmente homogêneos, compostos exclusivamente por floresta. Já os pontos 7, 9 e 12 apresentaram os maiores índices de diversidade, sugerindo paisagens mais fragmentadas e com maior variedade de classes de uso e cobertura do solo.</p>
+<ul>
+<li>Cobertura Florestal</li>
+</ul>
+<p>A porcentagem de floresta variou entre 13,84% e 100%. Os pontos 6 e 14 apresentaram cobertura florestal total, enquanto o ponto 12 apresentou a menor porcentagem de floresta, indicando uma paisagem mais aberta ou antropizada. Em geral, observou-se que áreas com menor cobertura florestal tendem a apresentar maior diversidade da paisagem.</p>
+<ul>
+<li>Densidade de borda</li>
+</ul>
+<p>A densidade de borda variou de 0 a 74,45 m/ha. Os maiores valores ocorreram nos pontos 7 e 5, indicando maior fragmentação e presença de interfaces entre diferentes tipos de cobertura. Em contrapartida, os pontos 6 e 14 apresentaram densidade de borda nula, reforçando o padrão de áreas contínuas e pouco fragmentadas.</p>
+</section>
+<section id="painel-de-paisagens" class="level3">
+<h3 class="anchored" data-anchor-id="painel-de-paisagens">Painel de paisagens</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="imagens/exercicio2.2.png" class="img-fluid figure-img"></p>
+<figcaption>Painel de Amostragem</figcaption>
+</figure>
+</div>
+<p>Recortes circulares de cada ponto</p>
 
 
+</section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

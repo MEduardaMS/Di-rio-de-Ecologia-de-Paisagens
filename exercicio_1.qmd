@@ -1,5 +1,5 @@
 ---
-title: "Exercício 1ª aula"
+title: "1º Exercício"
 format: html
 editor: visual
 ---

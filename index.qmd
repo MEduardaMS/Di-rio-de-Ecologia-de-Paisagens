@@ -14,4 +14,3 @@ author: "Eduarda Souto"
 # Para onde vou?
   Um lugar bacana, espero
 
-{r} 1 + 1

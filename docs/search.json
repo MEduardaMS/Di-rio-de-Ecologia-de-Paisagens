@@ -4,7 +4,21 @@
     "href": "index.html",
     "title": "Diário de Ecologia de Paisagens - Eduarda",
     "section": "",
-    "text": "Quem sou eu?\nNão sei\n\n\nPor que estou aqui?\nAinda descobrindo\n\n\nPara onde vou?\nUm lugar bacana, espero\n{r} 1 + 1"
+    "text": "Quem sou eu?\nNão sei\n\n\nPor que estou aqui?\nAinda descobrindo\n\n\nPara onde vou?\nUm lugar bacana, espero"
+  },
+  {
+    "objectID": "exercicio_4.html",
+    "href": "exercicio_4.html",
+    "title": "4º Exercício",
+    "section": "",
+    "text": "Área de Sorteio\n\n\nSeleção da área de sorteio, uma área de remanescentes florestais no município de Murici em Alagoas, com pelo menos 2km de distância da borda do mapa. A área de amortecimento, ou buffers, foram definidas em um buffer circular de 500m de raio.\n\n\n\n\n\n\nPontos\n\n\nForam sorteados 15 pontos dentro da área segura, com distância mínima de 1000m entre eles. Os círculos pretos indicam a área de amortecimento (buffer).\n\n\n\nForam calculados três métricas:\n\nDiversidade da paisagem (Índice de Shannon)\n\nA diversidade de Shannon variou de 0 a 1,33, indicando desde áreas homogêneas até áreas mais heterogêneas. Os pontos 6 e 14 apresentaram diversidade igual a zero, caracterizando ambientes totalmente homogêneos, compostos exclusivamente por floresta. Já os pontos 7, 9 e 12 apresentaram os maiores índices de diversidade, sugerindo paisagens mais fragmentadas e com maior variedade de classes de uso e cobertura do solo.\n\nCobertura Florestal\n\nA porcentagem de floresta variou entre 13,84% e 100%. Os pontos 6 e 14 apresentaram cobertura florestal total, enquanto o ponto 12 apresentou a menor porcentagem de floresta, indicando uma paisagem mais aberta ou antropizada. Em geral, observou-se que áreas com menor cobertura florestal tendem a apresentar maior diversidade da paisagem.\n\nDensidade de borda\n\nA densidade de borda variou de 0 a 74,45 m/ha. Os maiores valores ocorreram nos pontos 7 e 5, indicando maior fragmentação e presença de interfaces entre diferentes tipos de cobertura. Em contrapartida, os pontos 6 e 14 apresentaram densidade de borda nula, reforçando o padrão de áreas contínuas e pouco fragmentadas.\n\n\n\n\n\n\nPainel de Amostragem\n\n\nRecortes circulares de cada ponto"
+  },
+  {
+    "objectID": "exercicio_4.html#análise-espacial-com-terra-tidyverse-e-landscapemetrics",
+    "href": "exercicio_4.html#análise-espacial-com-terra-tidyverse-e-landscapemetrics",
+    "title": "4º Exercício",
+    "section": "",
+    "text": "Área de Sorteio\n\n\nSeleção da área de sorteio, uma área de remanescentes florestais no município de Murici em Alagoas, com pelo menos 2km de distância da borda do mapa. A área de amortecimento, ou buffers, foram definidas em um buffer circular de 500m de raio.\n\n\n\n\n\n\nPontos\n\n\nForam sorteados 15 pontos dentro da área segura, com distância mínima de 1000m entre eles. Os círculos pretos indicam a área de amortecimento (buffer).\n\n\n\nForam calculados três métricas:\n\nDiversidade da paisagem (Índice de Shannon)\n\nA diversidade de Shannon variou de 0 a 1,33, indicando desde áreas homogêneas até áreas mais heterogêneas. Os pontos 6 e 14 apresentaram diversidade igual a zero, caracterizando ambientes totalmente homogêneos, compostos exclusivamente por floresta. Já os pontos 7, 9 e 12 apresentaram os maiores índices de diversidade, sugerindo paisagens mais fragmentadas e com maior variedade de classes de uso e cobertura do solo.\n\nCobertura Florestal\n\nA porcentagem de floresta variou entre 13,84% e 100%. Os pontos 6 e 14 apresentaram cobertura florestal total, enquanto o ponto 12 apresentou a menor porcentagem de floresta, indicando uma paisagem mais aberta ou antropizada. Em geral, observou-se que áreas com menor cobertura florestal tendem a apresentar maior diversidade da paisagem.\n\nDensidade de borda\n\nA densidade de borda variou de 0 a 74,45 m/ha. Os maiores valores ocorreram nos pontos 7 e 5, indicando maior fragmentação e presença de interfaces entre diferentes tipos de cobertura. Em contrapartida, os pontos 6 e 14 apresentaram densidade de borda nula, reforçando o padrão de áreas contínuas e pouco fragmentadas.\n\n\n\n\n\n\nPainel de Amostragem\n\n\nRecortes circulares de cada ponto"
   },
   {
     "objectID": "about.html",
@@ -14,17 +28,31 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "exercício_aula1.html",
-    "href": "exercício_aula1.html",
-    "title": "Exercício 1ª aula",
+    "objectID": "exercicio_1.html",
+    "href": "exercicio_1.html",
+    "title": "1º Exercício",
     "section": "",
     "text": "Desenho da Área\n\n\nA paisagem é composta por uma matriz de pastagem, na qual estão inseridos capões de mata isolados. Não foram observados corredores ecológicos conectando os fragmentos florestais à área de pastagem.\n\n\n\n\n\n\nGrãos\n\n\n\n\n\n\n\n\nExercício de Percepção\n\n\n\n\n\n\nAo aumentar o tamanho do grão (Parte 2), você perdeu informações que seriam vitais para a conservação de alguma espécie específica?\nR: Não, visto que a maior parte da floresta e do pasto foram conservadas na criação do grão.\nComo a conectividade funcional mudou entre a sua visão humana e a visão do “gafanhoto”? Elementos que eram barreiras continuam sendo?\nR: Visto que não há barreiras entre a pastagem e a mancha florestal, acredito que a conectividade permanece. Também há o fator que, conhecendo a área, há constante fluxo de espécies entre os dois elementos, especialmente serpentes.\nVocê consegue identificar algum distúrbio (natural ou antrópico) que foi o responsável por criar essa heterogeneidade que você desenhou?\nR: Sim, a área escolhida é um local de pastagem utilizada para criação de bovinos a gerações"
   },
   {
-    "objectID": "exercício_aula1.html#semana-1-fundamentos-de-ecologia-de-paisagem",
-    "href": "exercício_aula1.html#semana-1-fundamentos-de-ecologia-de-paisagem",
-    "title": "Exercício 1ª aula",
+    "objectID": "exercicio_1.html#semana-1-fundamentos-de-ecologia-de-paisagem",
+    "href": "exercicio_1.html#semana-1-fundamentos-de-ecologia-de-paisagem",
+    "title": "1º Exercício",
     "section": "",
     "text": "Desenho da Área\n\n\nA paisagem é composta por uma matriz de pastagem, na qual estão inseridos capões de mata isolados. Não foram observados corredores ecológicos conectando os fragmentos florestais à área de pastagem.\n\n\n\n\n\n\nGrãos\n\n\n\n\n\n\n\n\nExercício de Percepção\n\n\n\n\n\n\nAo aumentar o tamanho do grão (Parte 2), você perdeu informações que seriam vitais para a conservação de alguma espécie específica?\nR: Não, visto que a maior parte da floresta e do pasto foram conservadas na criação do grão.\nComo a conectividade funcional mudou entre a sua visão humana e a visão do “gafanhoto”? Elementos que eram barreiras continuam sendo?\nR: Visto que não há barreiras entre a pastagem e a mancha florestal, acredito que a conectividade permanece. Também há o fator que, conhecendo a área, há constante fluxo de espécies entre os dois elementos, especialmente serpentes.\nVocê consegue identificar algum distúrbio (natural ou antrópico) que foi o responsável por criar essa heterogeneidade que você desenhou?\nR: Sim, a área escolhida é um local de pastagem utilizada para criação de bovinos a gerações"
+  },
+  {
+    "objectID": "exercicio_5.html",
+    "href": "exercicio_5.html",
+    "title": "5º Exercício",
+    "section": "",
+    "text": "O município escolhido foi Iatecá localizado no agreste pernambucano, é um local com um remanescente florestal ainda não caracterizado na literatura, além de áreas de pastagem e um povoado.\n\n\n\nÁrea de sorteio"
+  },
+  {
+    "objectID": "exercicio_5.html#exercício-prático-consultoria-técnica-para-criação-de-unidades-de-conservação-ucs",
+    "href": "exercicio_5.html#exercício-prático-consultoria-técnica-para-criação-de-unidades-de-conservação-ucs",
+    "title": "5º Exercício",
+    "section": "",
+    "text": "O município escolhido foi Iatecá localizado no agreste pernambucano, é um local com um remanescente florestal ainda não caracterizado na literatura, além de áreas de pastagem e um povoado.\n\n\n\nÁrea de sorteio"
   }
 ]

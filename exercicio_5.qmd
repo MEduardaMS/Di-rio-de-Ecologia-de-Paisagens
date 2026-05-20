@@ -1,0 +1,13 @@
+---
+title: "5º Exercício"
+editor: visual
+---
+
+# **Exercício Prático 5: Descrevendo uma paisagem**
+
+## **Exercício Prático: Consultoria Técnica para Criação de Unidades de Conservação (UCs)**
+
+O município escolhido foi Iatecá localizado no agreste pernambucano, é um local com um remanescente florestal ainda não caracterizado na literatura, além de áreas de pastagem e um povoado. 
+
+![Área de sorteio](imagens/exercicio5.png)
+
