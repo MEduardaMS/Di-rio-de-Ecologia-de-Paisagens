@@ -5,12 +5,9 @@ author: "Eduarda Souto"
 
 ---
 
-# Quem sou eu?
-  Não sei
+# O que é isso?
+
+  Esse é o meu diário para atividades da disciplina Ecologia de Paisagens
   
-# Por que estou aqui?
-  Ainda descobrindo
-  
-# Para onde vou?
-  Um lugar bacana, espero
+# bye bye
 
