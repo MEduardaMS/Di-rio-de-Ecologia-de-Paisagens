@@ -14,8 +14,10 @@ website:
         text: "4º Exercício"
       - href: exercicio_5.qmd
         text: "5º Exercíco"
+      - href: avaliacaofinal.qmd
+        text: "Avaliação Final" 
       - about.qmd
-      
+        
 format:
   html:
     theme: minty
